@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@300;600&display=swap");
+:root {
+  --primary-font: "Manrope", sans-serif;
+  --secondary-font: "Roboto", sans-serif;
+}
+/*GLOBAL NAV*/
+
+nav ul {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  text-align: center;
+  font-family: var(--primary-font);
+  text-transform: uppercase;
+  list-style: none;
+  align-items: flex-end;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+#logo {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+#logo h3,
+#logo h1 {
+  padding: 0;
+  margin: 0;
+}
+#logo h1 {
+  font-size: 3rem;
+}
+#logo h3 {
+  font-style: italic;
+}
