@@ -91,13 +91,12 @@ main {
   text-transform: uppercase;
   letter-spacing: 1rem;
 }
-#best-sell-gallery img {
-  height: 21rem;
+.image {
+  width: 17rem;
 }
-#best-sell-gallery {
+.best-sell-gallery {
   display: flex;
   position: relative;
-  width: fit-content;
   height: 21rem;
   flex-direction: row;
   justify-content: space-around;
