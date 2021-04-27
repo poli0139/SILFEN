@@ -4,7 +4,7 @@
   --secondary-font: "Roboto", sans-serif;
 }
 
-h1 {
+#shopheader h1 {
   font-family: var(--primary-font);
   text-align: center;
   text-transform: uppercase;
