@@ -37,3 +37,75 @@ a {
 #logo h3 {
   font-style: italic;
 }
+.icon {
+  width: 2rem;
+  height: auto;
+}
+/*FOOTER*/
+footer {
+  height: 15rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  font-family: var(--primary-font);
+  background-color: #ebebeb;
+  padding: 2rem;
+  margin-top: auto;
+}
+.footer-sec {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+#important-info img {
+  width: 50%;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  text-transform: uppercase;
+  row-gap: 1rem;
+  align-self: flex-start;
+}
+input {
+  background: none;
+  text-transform: uppercase;
+  width: 60%;
+  padding: 1rem;
+  border: #707070 solid 1px;
+}
+#newsletter-div h4 {
+  text-transform: uppercase;
+}
+#newsletter-div ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  list-style: none;
+  width: 60%;
+  padding: 0;
+  font-size: smaller;
+  font-weight: bolder;
+  justify-content: space-between;
+  text-decoration-line: underline;
+}
+#important-info {
+  align-items: center;
+  justify-content: space-between;
+}
+#links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 80%;
+}
+#links ul {
+  list-style: none;
+}
+.bold {
+  font-weight: bolder;
+}
+#links ul a:hover {
+  text-decoration-line: underline;
+}

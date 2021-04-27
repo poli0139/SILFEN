@@ -65,7 +65,7 @@ main {
   background-color: black;
   transition: all 0.5s;
 }
-button {
+.button-main {
   font-family: var(--primary-font);
   text-transform: uppercase;
   background: none;
@@ -80,23 +80,37 @@ button {
   height: 27rem;
 }
 #best-sell-info {
-  justify-content: center;
+  height: 27rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+#best-sell-info h2 {
+  font-family: var(--primary-font);
+  text-transform: uppercase;
+  letter-spacing: 1rem;
 }
 #best-sell-gallery img {
-  height: 20rem;
+  height: 21rem;
 }
 #best-sell-gallery {
   display: flex;
   position: relative;
+  width: fit-content;
+  height: 21rem;
   flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
 }
 #unisex-block {
   display: flex;
   flex-direction: row;
+  height: 30rem;
+  margin: 0;
+  padding: 0;
 }
-#unisex-block img {
-  height: 25rem;
-}
+
 #unisex-text {
   background-color: #4380b1;
   color: white;

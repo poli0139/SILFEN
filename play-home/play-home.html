@@ -27,6 +27,12 @@
           <li class="menu"><a href="#">About us</a></li>
           <li class="menu"><a href="#">Sustainability</a></li>
           <li class="menu"><a href="#">Studio</a></li>
+          <li class="icon" id="search">
+            <img src="../pictures/icons/Search.svg" alt="search-icon" />
+          </li>
+          <li class="icon" id="cart">
+            <img src="../pictures/icons/Shopping.svg" alt="cart-icon" />
+          </li>
         </ul>
       </nav>
     </header>
@@ -34,7 +40,7 @@
       <div id="cover">
         <img
           id="logo"
-          src="../pictures/silfen-play/SILFEN PLAY - LOGO .png"
+          src="../pictures/silfen-play/SILFEN-PLAY-LOGO-white.png"
           alt="logo"
         />
       </div>
@@ -54,7 +60,7 @@
           sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
           dolore magna aliquyam erat.
         </p>
-        <button id="shop-play">Shop silfen play</button>
+        <button class="button-main" id="shop-play">Shop silfen play</button>
       </div>
       <div id="best-sell">
         <img
@@ -80,7 +86,7 @@
         </div>
       </div>
       <div id="unisex-block">
-        <div id="unisex-text">
+        <section id="unisex-text">
           <h1 class="section-name">Unisex</h1>
           <p class="section-text">
             Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
@@ -91,11 +97,63 @@
             sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore
             et dolore magna aliquyam erat.
           </p>
-          <button id="shop-unisex">Shop Unisex</button>
-        </div>
+          <button class="button-main" id="shop-unisex">Shop Unisex</button>
+        </section>
         <img src="../pictures/silfen-play/home-page/unisex.jpeg" alt="unisex" />
       </div>
     </main>
-    <footer></footer>
+    <footer>
+      <div class="footer-sec" id="newsletter-div">
+        <form id="sign-up">
+          <label for="email">
+            Don’t forget to sign up for our newsletter to receive updates on
+            products, launches, and events. Unsubscribe anytime.</label
+          >
+          <input
+            id="email"
+            type="email"
+            name="email"
+            placeholder="Your email"
+          />
+        </form>
+        <h4>2021 silfen. all rights reserved.</h4>
+        <ul>
+          <li>
+            <a href="#">Privacy policy</a>
+          </li>
+          <li>
+            <a href="#"> Terms of use</a>
+          </li>
+          <li>
+            <a href="#">Accessibility</a>
+          </li>
+          <li>
+            <a href="#">Sustainability</a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer-sec" id="important-info">
+        <img src="../pictures/SILFEN-logo-white.png" alt="logo" />
+        <div id="links">
+          <div id="links-about">
+            <ul>
+              <li class="bold">About Silfen</li>
+              <li><a href="#">Who are we</a></li>
+              <li><a href="#">Careers</a></li>
+              <li><a href="#">Sustainability</a></li>
+            </ul>
+          </div>
+          <div id="links-help">
+            <ul>
+              <li class="bold">Help</li>
+              <li><a href="#">Contact</a></li>
+              <li><a href="#">Returns & Exchanges</a></li>
+              <li><a href="#">FAQ</a></li>
+            </ul>
+          </div>
+          <div id="icons"></div>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
