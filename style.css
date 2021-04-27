@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@300;600&display=swap");
+:root {
+  --primary-font: "Manrope", sans-serif;
+  --secondary-font: "Roboto", sans-serif;
+}
+/*GLOBAL NAV*/
+
+nav ul {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  text-align: center;
+  font-family: var(--primary-font);
+  text-transform: uppercase;
+  list-style: none;
+  align-items: flex-end;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+#logo {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+#logo h3,
+#logo h1 {
+  padding: 0;
+  margin: 0;
+}
+#logo h1 {
+  font-size: 3rem;
+}
+#logo h3 {
+  font-style: italic;
+}
+.icon {
+  width: 2rem;
+  height: auto;
+}
+/*FOOTER*/
+footer {
+  height: 15rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  font-family: var(--primary-font);
+  background-color: #ebebeb;
+  padding: 2rem;
+  margin-top: auto;
+}
+.footer-sec {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+#important-info img {
+  width: 50%;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  text-transform: uppercase;
+  row-gap: 1rem;
+  align-self: flex-start;
+}
+input {
+  background: none;
+  text-transform: uppercase;
+  width: 60%;
+  padding: 1rem;
+  border: #707070 solid 1px;
+}
+#newsletter-div h4 {
+  text-transform: uppercase;
+}
+#newsletter-div ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  list-style: none;
+  width: 60%;
+  padding: 0;
+  font-size: smaller;
+  font-weight: bolder;
+  justify-content: space-between;
+  text-decoration-line: underline;
+}
+#important-info {
+  align-items: center;
+  justify-content: space-between;
+}
+#links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 80%;
+}
+#links ul {
+  list-style: none;
+}
+.bold {
+  font-weight: bolder;
+}
+#links ul a:hover {
+  text-decoration-line: underline;
+}

@@ -1,0 +1,126 @@
+main {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+#logo {
+  position: relative;
+  top: 30%;
+  left: 10%;
+}
+#cover {
+  background-image: url(../pictures/silfen-play/home-page/cover.jpg);
+  background-size: cover;
+  background-position: top;
+  height: 30rem;
+  margin-top: 1rem;
+}
+#gallery {
+  display: flex;
+  flex-direction: row;
+  height: 25rem;
+  align-content: center;
+}
+.gallery-img {
+  height: 25rem;
+  width: 100%;
+  background-position-x: center;
+}
+#left {
+  background-image: url(../pictures/silfen-play/home-page/girl.jpg);
+  background-size: cover;
+}
+#center {
+  background-image: url(../pictures/silfen-play/home-page/group.jpg);
+  background-size: cover;
+}
+#right {
+  background-image: url(../pictures/silfen-play/home-page/girl2.jpg);
+  background-size: cover;
+}
+#intro {
+  height: 25rem;
+  text-align: center;
+  background-color: #e0ffad;
+  border: solid #e0ffad 1px;
+}
+.section-name {
+  font-family: var(--primary-font);
+  text-transform: uppercase;
+  margin-bottom: 0;
+  font-size: 4rem;
+  letter-spacing: 2rem;
+}
+.section-text {
+  font-family: var(--secondary-font);
+  line-height: 2rem;
+  margin-left: 10rem;
+  margin-right: 10rem;
+}
+#shop-play {
+  border: solid black 3px;
+}
+#shop-play:hover {
+  color: white;
+  background-color: black;
+  transition: all 0.5s;
+}
+.button-main {
+  font-family: var(--primary-font);
+  text-transform: uppercase;
+  background: none;
+  font-size: 2rem;
+  padding: 0.5rem;
+  transition: all 0.5s;
+}
+
+#best-sell {
+  display: flex;
+  flex-direction: row;
+  height: 27rem;
+}
+#best-sell-info {
+  height: 27rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+#best-sell-info h2 {
+  font-family: var(--primary-font);
+  text-transform: uppercase;
+  letter-spacing: 1rem;
+}
+.image {
+  width: 17rem;
+}
+.best-sell-gallery {
+  display: flex;
+  position: relative;
+  height: 21rem;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+}
+#unisex-block {
+  display: flex;
+  flex-direction: row;
+  height: 30rem;
+  margin: 0;
+  padding: 0;
+}
+
+#unisex-text {
+  background-color: #4380b1;
+  color: white;
+  text-align: center;
+}
+#shop-unisex {
+  color: white;
+  border: solid white 3px;
+}
+#shop-unisex:hover {
+  color: #4380b1;
+  background-color: white;
+  transition: all 0.5s;
+}
