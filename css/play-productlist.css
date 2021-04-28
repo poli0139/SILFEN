@@ -3,7 +3,9 @@
   --primary-font: "Manrope", sans-serif;
   --secondary-font: "Roboto", sans-serif;
 }
-
+#shopheader {
+  margin: 0;
+}
 #shopheader h1 {
   font-family: var(--primary-font);
   text-align: center;
@@ -36,7 +38,7 @@ a:hover {
   text-decoration: underline;
 }
 
-section {
+#product-list {
   font-family: var(--secondary-font);
   text-transform: uppercase;
   text-align: center;
@@ -49,11 +51,23 @@ section {
   margin-bottom: 5rem;
 }
 
-section div {
-  border: black;
+.single-product {
   width: 30%;
 }
-
-img {
-  width: 100%;
+article img {
+  width: 80%;
+  margin: 1rem;
+}
+.single-product {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  font-family: var(--primary-font);
+}
+.info {
+  padding: 0;
+}
+article h2 {
+  font-size: medium;
 }

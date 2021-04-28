@@ -3,20 +3,32 @@
   --primary-font: "Manrope", sans-serif;
   --secondary-font: "Roboto", sans-serif;
 }
-/*GLOBAL NAV*/
-
-nav ul {
-  padding: 0;
+body {
   margin: 0;
+  padding: 0;
+}
+/*GLOBAL NAV*/
+header {
+  margin-top: 1rem;
+  margin-bottom: 5rem;
+}
+header nav {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
-  text-align: center;
+  justify-content: space-around;
   font-family: var(--primary-font);
+}
+header nav ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
   text-transform: uppercase;
   list-style: none;
   align-items: flex-end;
+  width: 40%;
 }
+
 a {
   text-decoration: none;
   color: black;
@@ -81,11 +93,10 @@ input {
 #newsletter-div ul {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
   list-style: none;
   width: 60%;
   padding: 0;
-  font-size: smaller;
+  font-size: x-small;
   font-weight: bolder;
   justify-content: space-between;
   text-decoration-line: underline;
@@ -108,4 +119,11 @@ input {
 }
 #links ul a:hover {
   text-decoration-line: underline;
+}
+#icons {
+  display: flex;
+  flex-direction: row;
+}
+#icons img {
+  height: 2rem;
 }
