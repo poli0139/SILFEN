@@ -28,7 +28,9 @@ header nav ul {
   align-items: flex-end;
   width: 40%;
 }
-
+header ul li:hover {
+  text-decoration-line: underline;
+}
 a {
   text-decoration: none;
   color: black;
@@ -116,6 +118,7 @@ input {
 }
 .bold {
   font-weight: bolder;
+  text-transform: uppercase;
 }
 #links ul a:hover {
   text-decoration-line: underline;

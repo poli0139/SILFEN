@@ -34,7 +34,7 @@ a {
   color: black;
 }
 
-a:hover {
+main a:hover {
   text-decoration: underline;
 }
 
@@ -45,6 +45,7 @@ a:hover {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  row-gap: 1rem;
   justify-content: space-around;
   margin-left: 10rem;
   margin-right: 10rem;
