@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@300&display=swap");
+:root {
+  --primary-font: "Manrope", sans-serif;
+  --secondary-font: "Roboto", sans-serif;
+}
+#shopheader {
+  margin: 0;
+}
+#shopheader h1 {
+  font-family: var(--primary-font);
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 4rem;
+  margin: 0;
+}
+
+#shopcategories {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 5rem;
+}
+
+li {
+  list-style: none;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+a {
+  font-family: var(--secondary-font);
+  text-decoration: none;
+  text-transform: uppercase;
+  color: black;
+}
+
+main a:hover {
+  text-decoration: underline;
+}
+
+#product-list {
+  font-family: var(--secondary-font);
+  text-transform: uppercase;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  row-gap: 1rem;
+  justify-content: space-around;
+  margin-left: 10rem;
+  margin-right: 10rem;
+  margin-bottom: 5rem;
+}
+
+.single-product {
+  width: 30%;
+}
+article img {
+  width: 80%;
+  margin: 1rem;
+}
+.single-product {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  font-family: var(--primary-font);
+}
+.info {
+  padding: 0;
+}
+article h2 {
+  font-size: medium;
+}
