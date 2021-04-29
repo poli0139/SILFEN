@@ -16,7 +16,9 @@
             <a href="#">New arrivals</a>
           </li>
           <li class="menu"><a href="#">Collections</a></li>
-          <li class="menu"><a href="#">Shop</a></li>
+          <li class="menu">
+            <a href="../play-productlist/play-productlist.html">Shop</a>
+          </li>
           <li class="menu"><a href="#">Sale</a></li>
         </ul>
         <a href="../landing.html" id="logo">
@@ -43,38 +45,32 @@
           <h2 class="name"></h2>
           <h3 class="price">DKK <span></span></h3>
           <div class="description">
-            <h3>About</h3>
             <p class="about-product"></p>
           </div>
           <template class="colors">
-            <div class="single-color"></div>
+            <div class="color-box"></div>
           </template>
-          <button id="add">Add to cart</button>
-          <a href="#">Delivery & Return</a>
-          <a href="#">Details</a>
+          <a href="#"><button id="add">Add to cart</button></a>
+          <a class="small-link" href="#">Delivery & Return</a>
+          <a class="small-link" href="#">Details</a>
         </article>
       </section>
-      <!--FEATURED
-      <section class="suggestions">
+      <!--FEATURED-->
+      <section id="featured">
         <h2>people also viewed</h2>
-        <div class="similar">
-          <article class="overview">
-            <div class="img"></div>
-            <h2>Name</h2>
-              <p class="price"></p>
-          </article>
-          <article class="overview">
-            <div class="img"></div>
-            <h2>Name</h2>
-              <p class="price"></p>
-          </article>
-          <article class="overview">
-            <div class="img"></div>
-            <h2>Name</h2>
-              <p class="price"></p>
-          </article>
-        </div>
-      </section>-->
+        <section class="suggestions">
+          <template class="similar">
+            <a href="../play-product/product.html?id=">
+              <article class="overview">
+                <img src="" alt="" />
+                <div class="name-price">
+                  <h2 class="name"></h2>
+                  <p class="price">DKK <span></span></p>
+                </div></article
+            ></a>
+          </template>
+        </section>
+      </section>
     </main>
     <footer>
       <div class="footer-sec" id="newsletter-div">
