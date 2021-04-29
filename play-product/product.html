@@ -4,12 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/css/play-productlist.css"/>
-    <link rel="stylesheet" href="../style.css">
-    <title>Men - Silfen Play</title>
+    <link rel="stylesheet" href="../style.css" />
+    <link rel="stylesheet" href="product.css" />
+    <title>Product</title>
   </head>
   <body>
-    
     <header>
       <nav>
         <ul>
@@ -17,14 +16,16 @@
             <a href="#">New arrivals</a>
           </li>
           <li class="menu"><a href="#">Collections</a></li>
-          <li class="menu"><a href="#">Shop</a></li>
+          <li class="menu">
+            <a href="../play-productlist/play-productlist.html">Shop</a>
+          </li>
           <li class="menu"><a href="#">Sale</a></li>
-          </ul>
-            <a  href="../landing.html" id="logo">
-              <h1>Silfen</h1>
-              <h3>Play</h3>
-            </a>
-          <ul>
+        </ul>
+        <a href="../landing.html" id="logo">
+          <h1>Silfen</h1>
+          <h3>Play</h3>
+        </a>
+        <ul>
           <li class="menu"><a href="#">About us</a></li>
           <li class="menu"><a href="#">Sustainability</a></li>
           <li class="menu"><a href="#">Studio</a></li>
@@ -38,29 +39,38 @@
       </nav>
     </header>
     <main>
-      <div id="shopheader">
-        <h1>Shop</h1>
-        <div>
-          <ul id="shopcategories">
-            <li><a href="#">Women</a></li>
-            |
-            <li><a href="#">Men</a></li>
-            |
-            <li><a href="#">Unisex</a></li>
-            |
-            <li><a href="#">Bags</a></li>
-          </ul>
-        </div>
-      </div>
-<section id="product-list">  
-  <template class="single-product-template">
-    <a href="../play-product/product.html?id="><article class="single-product"> 
-      <img src="" alt=""></img>
-      <div class="info">
-    <h2></h2>
-        <p>DKK <span></span></p></div>
-    </article></a></template>
-</section>
+      <section id="product">
+        <img class="product-img" src="" alt="" />
+        <article class="info">
+          <h2 class="name"></h2>
+          <h3 class="price">DKK <span></span></h3>
+          <div class="description">
+            <p class="about-product"></p>
+          </div>
+          <template class="colors">
+            <div class="color-box"></div>
+          </template>
+          <a href="#"><button id="add">Add to cart</button></a>
+          <a class="small-link" href="#">Delivery & Return</a>
+          <a class="small-link" href="#">Details</a>
+        </article>
+      </section>
+      <!--FEATURED-->
+      <section id="featured">
+        <h2>people also viewed</h2>
+        <section class="suggestions">
+          <template class="similar">
+            <a href="../play-product/product.html?id=">
+              <article class="overview">
+                <img src="" alt="" />
+                <div class="name-price">
+                  <h2 class="name"></h2>
+                  <p class="price">DKK <span></span></p>
+                </div></article
+            ></a>
+          </template>
+        </section>
+      </section>
     </main>
     <footer>
       <div class="footer-sec" id="newsletter-div">
@@ -111,14 +121,14 @@
               <li><a href="#">FAQ</a></li>
             </ul>
           </div>
-           </div>
-           <div id="icons">
-            <img src="../pictures/icons/instagram.svg" alt="instagram">
-            <img src="../pictures/icons/facebook.svg" alt="facebook">
-            <img src="../pictures/icons/email.svg" alt="email">
-          </div>
+        </div>
+        <div id="icons">
+          <img src="../pictures/icons/instagram.svg" alt="instagram" />
+          <img src="../pictures/icons/facebook.svg" alt="facebook" />
+          <img src="../pictures/icons/email.svg" alt="email" />
+        </div>
       </div>
     </footer>
-    <script src="/play-productlist/play-productlist.js"></script>
+    <script src="/play-product/product.js"></script>
   </body>
 </html>

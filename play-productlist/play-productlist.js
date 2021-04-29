@@ -24,6 +24,9 @@ function showProducts(products) {
     copy.querySelector("img").alt = `${product.name}`;
     copy.querySelector("p span").textContent = product.price;
     copy.querySelector("h2").textContent = product.name;
+    copy.querySelector(
+      "a"
+    ).href = `../play-product/product.html?id=${product._id}`;
     document.querySelector("section").appendChild(copy);
   });
 }
