@@ -20,6 +20,8 @@
 }
 .info h2 {
   text-transform: uppercase;
+  font-size: 3rem;
+  margin: 0;
 }
 #add {
   font-family: var(--primary-font);
