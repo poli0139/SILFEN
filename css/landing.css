@@ -4,16 +4,6 @@
   --secondary-font: "Roboto", sans-serif;
 }
 
-/*HEADER*/
-
-/*#icon {
-  background-image: url(/pictures/icons/search.svg);
-  background-size: contain;
-  background-repeat: no-repeat;
-  width: 2.5rem;
-  height: auto;
-}*/
-
 #nav {
   font-family: var(--primary-font);
   text-transform: uppercase;
@@ -48,11 +38,11 @@ main {
   text-decoration: none;
 }
 #studio-cover {
-  background: url(/pictures/studio-landing.jpeg);
+  background: url(../pictures/studio-landing.jpeg);
   background-size: cover;
 }
 #play-cover {
-  background: url(/pictures/play-landing.jpg);
+  background: url(../pictures/play-landing.jpg);
   background-size: cover;
 }
 
