@@ -5,24 +5,26 @@ main {
 }
 #logo-cover {
   position: relative;
-  top: 30%;
-  left: 10%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  width: 100%;
 }
 #cover {
   background-image: url(../pictures/silfen-play/home-page/cover.jpg);
   background-size: cover;
   background-position: top;
-  height: 30rem;
+  height: auto;
+  text-align: center;
   margin-top: 1rem;
 }
 #gallery {
   display: flex;
   flex-direction: row;
-  height: 25rem;
+  height: auto;
   align-content: center;
 }
 .gallery-img {
-  height: 25rem;
+  height: auto;
   width: 100%;
   background-position-x: center;
 }
@@ -39,10 +41,11 @@ main {
   background-size: cover;
 }
 #intro {
-  height: 25rem;
+  height: auto;
   text-align: center;
   background-color: #e0ffad;
   border: solid #e0ffad 1px;
+  padding: 2rem;
 }
 .section-name {
   font-family: var(--primary-font);
@@ -54,8 +57,8 @@ main {
 .section-text {
   font-family: var(--secondary-font);
   line-height: 2rem;
-  margin-left: 10rem;
-  margin-right: 10rem;
+  width: 100%;
+  align-self: center;
 }
 #shop-play {
   border: solid black 3px;
@@ -69,6 +72,7 @@ main {
   font-family: var(--primary-font);
   text-transform: uppercase;
   background: none;
+  cursor: pointer;
   font-size: 2rem;
   padding: 0.5rem;
   transition: all 0.5s;
@@ -77,11 +81,15 @@ main {
 #best-sell {
   display: flex;
   flex-direction: row;
-  height: 27rem;
+  flex-wrap: wrap;
+  height: auto;
+}
+#best-sell-img {
+  width: 30%;
 }
 #best-sell-info {
-  height: 27rem;
-  width: 100%;
+  height: auto;
+  width: 70%;
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -96,24 +104,31 @@ main {
 }
 .best-sell-gallery {
   display: flex;
-  position: relative;
-  height: 21rem;
+  height: auto;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: space-around;
   width: 100%;
 }
 #unisex-block {
   display: flex;
   flex-direction: row;
-  height: 30rem;
+  height: auto;
   margin: 0;
   padding: 0;
+}
+#unisex-img {
+  width: 100%;
+  background: url("../pictures/silfen-play/home-page/unisex.jpeg");
+  background-size: cover;
+  background-position: center;
 }
 
 #unisex-text {
   background-color: #4380b1;
   color: white;
   text-align: center;
+  padding: 2rem;
 }
 #shop-unisex {
   color: white;
