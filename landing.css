@@ -38,11 +38,11 @@ main {
   text-decoration: none;
 }
 #studio-cover {
-  background: url(/pictures/studio-landing.jpeg);
+  background: url(pictures/studio-landing.jpeg);
   background-size: cover;
 }
 #play-cover {
-  background: url(/pictures/play-landing.jpg);
+  background: url(pictures/play-landing.jpg);
   background-size: cover;
 }
 
