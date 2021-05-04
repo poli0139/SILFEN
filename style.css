@@ -82,6 +82,23 @@ a {
   width: 2rem;
   height: auto;
 }
+/*CART*/
+.cart-drp {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  z-index: 1;
+  width: 20%;
+  border: solid red 1px;
+}
+.cart-img {
+  border: solid blue 1px;
+  background: url("/pictures/shop/517352_WATERGREEN_FRON.jpg");
+  background-size: cover;
+  width: 10rem;
+  height: auto;
+}
+
 /*FOOTER*/
 footer {
   height: auto;
