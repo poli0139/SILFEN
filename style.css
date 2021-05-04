@@ -28,9 +28,36 @@ header nav ul {
   align-items: flex-end;
   width: 40%;
 }
-header ul li:hover {
+header ul a:hover {
   text-decoration-line: underline;
 }
+/*DROPDOWN*/
+.drp-block {
+  display: inline-block;
+  align-self: flex-end;
+}
+.drp-content {
+  display: none;
+  flex-direction: column;
+  row-gap: 0.5rem;
+  position: absolute;
+  z-index: 1;
+  background-color: white;
+  box-shadow: 2px 3px 6px #707070;
+}
+.drp-single {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+.drp-single:hover {
+  background-color: #f1f1f1;
+}
+.drp-block:hover .drp-content {
+  display: flex;
+}
+
 a {
   text-decoration: none;
   color: black;
