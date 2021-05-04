@@ -87,16 +87,34 @@ a {
   position: absolute;
   display: flex;
   flex-direction: row;
+  column-gap: 1rem;
   z-index: 1;
-  width: 20%;
-  border: solid red 1px;
+  padding: 1rem;
+  width: auto;
+  height: auto;
+  left: 65%;
+  margin-top: 2rem;
+  box-shadow: 2px 3px 6px #707070;
 }
 .cart-img {
-  border: solid blue 1px;
   background: url("/pictures/shop/517352_WATERGREEN_FRON.jpg");
   background-size: cover;
+  background-position: center;
   width: 10rem;
   height: auto;
+}
+.cart-info,
+.total-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.cart-quantity {
+  width: 30%;
+}
+.cart-name,
+.bolder {
+  font-weight: bolder;
 }
 
 /*FOOTER*/

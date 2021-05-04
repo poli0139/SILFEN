@@ -50,8 +50,8 @@
           <li class="icon" id="search">
             <img src="../pictures/icons/search.svg" alt="search-icon" />
           </li>
-          <li class="icon drp-block">
-            <div class="cart">
+          <li>
+            <div class="cart drp-block">
               <img
                 class="icon"
                 id="cart-icon"
@@ -63,7 +63,16 @@
                 <div class="cart-info">
                   <p class="cart-name">Product name</p>
                   <input class="cart-quantity" type="number" value="2" />
-                  <p class="cart-total">DKK<span> 300</span></p>
+                  <div class="price-div">
+                    <p class="bolder">Price</p>
+                    <p class="price cart-price">DKK <span></span></p>
+                  </div>
+                  <button class="remove">Remove item</button>
+                  <button id="buy">Checkout</button>
+                </div>
+                <div id="total-div">
+                  <p class="bolder">Total</p>
+                  <p class="cart-total-sum">DKK<span> 300</span></p>
                 </div>
               </div>
             </div>
@@ -171,5 +180,6 @@
     </footer>
     <script src="product.js"></script>
     <script src="../footer.js"></script>
+    <script src="../cart.js"></script>
   </body>
 </html>
